@@ -1,0 +1,12 @@
+Variables:
+	serviceConnectionName: 'AzDevops'
+
+#Variables for where to store the statefile
+stateTenantId: 'd8c8b668-2c2a-485d-b1b7-1f164ee3152b'
+stateSubscriptionId: '2f38262e-97ca-441b-a6a7-0e1e3f4639cf'
+
+#terraform configuration variable. there are automatically transformed into terraform using environment variables )TF_VAR_TENANT_ID --> TENANT_ID)
+TF_VAR_TENANT_ID: 'd8c8b668-2c2a-485d-b1b7-1f164ee3152b'
+TF_VAR_SUBSCRIPTION_ID : '2f38262e-97ca-441b-a6a7-0e1e3f4639cf'
+TD_VAR_OBJECT_ID : '06a61ca1-7759-4077-b33a-0fc57330aa9a'
+
